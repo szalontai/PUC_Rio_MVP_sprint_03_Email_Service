@@ -1,8 +1,8 @@
-# Meu componente C - API em REST - Servidor de E-mail
+# Componente C - API em REST - Servidor de E-mail
 
 Este projeto faz parte do material diático da Disciplina **Arquitetura de Software - Sprint 3** 
 
-O objetivo desta API o envio de e-mail é apresetar uma API emplementada seguindo o estilo REST.
+O objetivo desta API o envio de e-mail seguindo o estilo REST.
 
 ### Instalação
 
