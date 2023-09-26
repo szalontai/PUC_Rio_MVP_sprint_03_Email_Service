@@ -1,2 +1,2 @@
-from schemas.email import   PostSchema,ErrorSchema
+from schemas.email import   PostSchema,ErrorSchema,PostResultSchema
 
