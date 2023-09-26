@@ -1,4 +1,4 @@
-# Componente C - API em REST - Servidor de E-mail
+# Componente C - Microserviço de envio de E-mail
 
 Este projeto faz parte do material diático da Disciplina **Arquitetura de Software - Sprint 3** 
 
