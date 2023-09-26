@@ -15,9 +15,9 @@ app = OpenAPI(__name__, info=info)
 app.config['JSON_SORT_KEYS'] = True
 app.config.from_object(os.getenv("APP_SETTINGS"))
 
-home_tag = Tag(name="Email Service", description="Documentação da API do Email Service")
+home_tag = Tag(name="Email Service", description="Documentação da API do Email Service.")
 
-Email_tag = Tag( name="E-Mail", description="Serviço de envio de E-mail")
+Email_tag = Tag( name="E-Mail", description="Microserviço de envio de E-mail.")
 
 
 @app.get('/', tags=[home_tag])
@@ -28,9 +28,9 @@ def home():
 
 
 @app.post('/send_email', tags=[Email_tag],
-          responses={"200": PostSchema,  "409": ErrorSchema,  "400": ErrorSchema})
+          responses={"200": PostResultSchema,  "409": ErrorSchema,  "400": ErrorSchema})
 def send_email(form: PostSchema):
-    """Rota POST para envio de e-mail.
+    """Faz o envio de e-mail.
     Esta rota faz o envio de um e-mail baseado no campos :
 
         to_email: str  - E-mail para onde será enviada a mensagem
