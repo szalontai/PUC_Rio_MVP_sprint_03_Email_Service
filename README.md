@@ -4,6 +4,10 @@ Este projeto faz parte do material didático da Disciplina **Arquitetura de Soft
 
 O objetivo desta API o envio de e-mail seguindo o estilo REST.
 
+Para rodar o microserviço é necessário que o arquivo `.env` esteja na raiz, pois é nele que estão contidos o valor dos parâmetros PASSWORD e FROM_EMAIL.
+
+Esse arquivo será enviado juntamennte com os link do github
+
 ### Instalação
 
 
