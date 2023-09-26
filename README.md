@@ -1,6 +1,6 @@
 # Componente C - Microserviço de envio de E-mail
 
-Este projeto faz parte do material diático da Disciplina **Arquitetura de Software - Sprint 3** 
+Este projeto faz parte do material didático da Disciplina **Arquitetura de Software - Sprint 3** 
 
 O objetivo desta API o envio de e-mail seguindo o estilo REST.
 
